@@ -1,7 +1,7 @@
 <?php
 $cid=$_GET['c']; 
 //$p = $_GET['p']; 
-$url1="ch.json";
+$url1="./ch.json";
 //echo $url1;
 
 //call api

@@ -37,7 +37,7 @@ $m3u =$json[$i]["link"];
 //$m3u=$json['js']['data'][$id]['cmd'];
 //echo $m3u;
 //$m3unew=str_replace('ffmpeg', '',$m3u);
-echo "value".$m3u;
+//echo "value".$m3u;
 header("Location:$m3u");
 die();
 ?>

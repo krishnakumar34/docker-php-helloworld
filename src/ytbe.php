@@ -73,7 +73,7 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array( "Content-Type: application/json" ));
     return $data;
 }
 //echo "chhh".$channelid4;
-$url2="https://ypm.onrender.com/video/$channelid4";
+$url2="https://ypm3.onrender.com/video/$channelid4";
 //echo $url2;
 //$resp = file_get_contents($urlVideoDetails);  
 //echo json_decode($resp);     

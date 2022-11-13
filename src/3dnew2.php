@@ -8,7 +8,7 @@ $opts = [
         "header" =>  "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
 "Referer: http://3d.new4k.tv/stalker_portal/c/\r\n" .
-"Cookie:mac=00:1A:79:a1:1d:20;stb_lang=en; timezone=GMT\r\n" .
+"Cookie:mac=00:1A:79:a1:1d:20;stb_lang=en\r\n" .
 "Accept: */*\r\n".
 "Host: 3d.new4k.tv\r\n"
     ]
@@ -29,7 +29,7 @@ $opts1 = [
         "header" => "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
 "Referer: http://3d.new4k.tv/stalker_portal/c/\r\n" .
-"Cookie:mac=00:1A:79:a1:1d:20;stb_lang=en; timezone=GMT\r\n" .
+"Cookie:mac=00:1A:79:a1:1d:20;stb_lang=en\r\n" .
 "Authorization:Bearer $token\r\n".
 "Accept: */*\r\n".
 "Host: 3d.new4k.tv\r\n"
@@ -41,7 +41,7 @@ $opts2 = [
         "header" => "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
 "Referer: http://3d.new4k.tv/stalker_portal/c/\r\n" .
-"Cookie:mac=00:1A:79:a1:1d:20;stb_lang=en;timezone=GMT\r\n" .
+"Cookie:mac=00:1A:79:a1:1d:20;stb_lang=en\r\n" .
 "Authorization:Bearer $token\r\n".
 "Accept: */*\r\n".
 "Host: 3d.new4k.tv\r\n".

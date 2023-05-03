@@ -6,7 +6,8 @@ function str_replace_first($sh,$that,$s)
          return substr($s,0,$w).$that.substr($s,$w+strlen($sh));
          }
 //$channelid=$_GET['c'];
-$url2="https://m.youtube.com/watch?v=gF-tHJ5snnk&feature=youtu.be";
+
+$url2="https://m.youtube.com/watch?v=zdmO0ROMGUI";
 //$url2="https://ypm3.onrender.com/video/$channelid";
 //$resp = file_get_contents($urlVideoDetails);  
 //echo json_decode($resp);     

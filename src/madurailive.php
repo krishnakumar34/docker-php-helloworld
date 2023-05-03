@@ -5,9 +5,9 @@ function str_replace_first($sh,$that,$s)
          if($w===false)return $s;
          return substr($s,0,$w).$that.substr($s,$w+strlen($sh));
          }
-//$channelid=$_GET['c'];
+$channelid=$_GET['c'];
 
-$url2="https://m.youtube.com/watch?v=zdmO0ROMGUI";
+$url2="https://m.youtube.com/watch?v=$channelid";
 //$url2="https://ypm3.onrender.com/video/$channelid";
 //$resp = file_get_contents($urlVideoDetails);  
 //echo json_decode($resp);     

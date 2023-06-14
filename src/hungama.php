@@ -16,12 +16,13 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_HEADER, FALSE);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array( "Content-Type: application/json" ));
 $response = curl_exec($ch);
-//echo "result".var_dump($response);
+echo "result".var_dump($response);
 //echo "kk".var_dump(json_decode($response,true));
 $json = json_decode($response, true);
 //echo "result3".var_dump($json);
 //echo "resultfff". var_dump($json["sources"][0]["file"]);
 $m3unew=$json["sources"][0]["file"];
+echo $m3unew;
 //$json= json_decode($json, false);
 //echo "decoded".var_dump($json);
 

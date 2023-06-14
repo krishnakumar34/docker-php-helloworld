@@ -5,8 +5,8 @@ $url1="https://tamiltv.store/api/?RzJZTjVEd3BOM09kUGJ6ZUhEZm5NMW54NHhxL3FtTnVmTW
 //echo $url1;
 
 //call api
-//$jsonvalues = file_get_contents($url1);
-//echo "results1" .$jsonvalues;
+$jsonvalues = file_get_contents($url1);
+echo "results1" .$jsonvalues;
 
 //echo "objecttype".gettype($jsonvalues);
 $ch = curl_init();

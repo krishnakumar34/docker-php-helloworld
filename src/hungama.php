@@ -11,7 +11,7 @@ echo "results1" .$jsonvalues;
 //echo "objecttype".gettype($jsonvalues);
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, $url1);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER,FALSE);
+//curl_setopt($ch, CURLOPT_SSL_VERIFYPEER,FALSE);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch, CURLOPT_HEADER, FALSE);
 curl_setopt($ch, CURLOPT_HTTPHEADER, array( "Content-Type: application/json" ));

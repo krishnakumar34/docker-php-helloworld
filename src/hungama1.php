@@ -21,15 +21,10 @@ $haystack = file_get_contents($urltk,false,$context);
 //echo "results1" .$jsonvalues;
 
 //echo "objecttype".gettype($jsonvalues);
-/*$ch = curl_init();
-curl_setopt($ch, CURLOPT_URL, $url1);
-curl_setopt($ch, CURLOPT_SSL_VERIFYPEER,FALSE);
-curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
-curl_setopt($ch, CURLOPT_HEADER, FALSE);
-curl_setopt($ch, CURLOPT_HTTPHEADER, array( "Content-Type: application/json" ));
-$response = curl_exec($ch);*/
+
 //echo "result".var_dump($response);
-//echo "kk".var_dump(json_decode($response,true));
+echo "kk".var_dump(json_decode($haystack,true));
+
 $json = json_decode($haystack, true);
 //echo "result3".var_dump($json);
 //echo "resultfff". var_dump($json["sources"][0]["file"]);

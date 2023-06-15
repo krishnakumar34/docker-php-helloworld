@@ -1,7 +1,7 @@
 <?php
 //$cid=$_GET['c']; 
 //$p = $_GET['p']; 
-
+header("Access-Control-Allow-Origin: *");
 $opts = [
     "http" => [
         "method" => "GET",

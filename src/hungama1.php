@@ -2,6 +2,9 @@
 //$cid=$_GET['c']; 
 //$p = $_GET['p']; 
 header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: GET, POST,HEAD");
+header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+
 $opts = [
     "http" => [
         "method" => "GET",

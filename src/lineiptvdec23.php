@@ -21,7 +21,7 @@ $p = $_GET['p'];
 //if(!file_exists($cache)){
 
 $context = stream_context_create($opts);
-$haystack = file_get_contents("http://line.crystal-ott.com:80/server/load.php?type=itv&action=get_ordered_list&genre=$cid&force_ch_link_check=&p=$p&JsHttpRequest=1-xml/",false,$context);
+$haystack = file_get_contents("http://line.crystal-ott.com:80/server/load.php?type=itv&action=get_ordered_list&genre=$cid&p=$p",false,$context);
 //echo $haystack;
 $json = json_decode($haystack, true);
 $id='4548';

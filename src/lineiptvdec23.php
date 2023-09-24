@@ -9,8 +9,8 @@ $p = $_GET['p'];
 		"X-User-Agent: Model: MAG250; Link: WiFi\r\n" .
 "Referer: http://line.crystal-ott.com:80/c/\r\n" .
 "Cookie: mac=00:1A:79:1A:00:10;stb_lang=en; timezone=GMT\r\n" .
-"Authorization:Bearer:090D73C116B9AC45CB0FB0DF99A7DBCF" .
-"Accept: */*\r\n"
+"Accept: */*\r\n".
+"Authorization:Bearer:090D73C116B9AC45CB0FB0DF99A7DBCF"
 
     ]
 ];

@@ -38,7 +38,7 @@ $resultk = explode('.', $result[6]);
 //$m3u=$data[0];
 //echo "m3ulink".var_dump($m3u);
 $m3unew=str_replace('ffmpeg', '',$data);
-$m3unew=str_replace('line.crystal-ott.com', 'line.crystalott.net',$m3unew);
+//$m3unew=str_replace('line.crystal-ott.com', 'line.crystalott.net',$m3unew);
 $m3unew=str_replace($resultk[0], $cid,$m3unew);
 //echo "value".$m3unew;
 header("Location:$m3unew");

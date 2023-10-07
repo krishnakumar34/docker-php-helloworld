@@ -79,7 +79,7 @@ $json2 = json_decode($haystack2, true);
 $id='4548';
 $data=$json2['js']['cmd'];
 //echo $data;
-
+$m3url="http://corskk.onrender.com/$data";
 //$data=$data | "User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3";
 //$m3u=$json['js']['data'][$ch]['cmd'];
 //echo "values".var_dump($m3u);
@@ -87,5 +87,5 @@ $data=$json2['js']['cmd'];
 //echo "m3ulink".var_dump($m3u);
 //$m3unew=str_replace('ffmpeg', '',$data);
 //echo "value".$data;
-header("Location:$data");
+header("Location:$m3url");
 ?>;

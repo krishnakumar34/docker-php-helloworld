@@ -3,15 +3,123 @@ $cid=$_GET['c'];
 //$ch=$_GET['ch']; 
 //$p = $_GET['p']; 
 $opts = [
+
     "http" => [
-        "method" => "GET",
-       "header" => "Cookie: mac=00:1a:79:42:E1:95\r\n".
-"User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
+
+
+"method" => "GET",
+
+
+"header" => "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
+
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
+
+"Referer: http://live.britishtv.org:8090/stalker_portal/c/\r\n" .
+
+"Cookie: mac=00:1a:79:42:E1:95; stb_lang=en; timezone=GMT\r\n" .
+
+"Accept: */*\r\n".
+
+
 "Host: live.britishtv.org:8090\r\n"
+
     ]
+
+
+
 ];
-	
+$opts1 = [
+
+
+
+    "http" => [
+
+
+
+
+
+"method" => "GET",
+
+
+
+
+
+"header" => "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
+
+
+
+"X-User-Agent: Model: MAG250; Link: WiFi\r\n".
+
+
+
+"Referer: http://live.britishtv.org:8090/stalker_portal/c/\r\n" .
+
+
+
+"Cookie: mac=00:1a:79:42:E1:95; stb_lang=en; timezone=GMT\r\n" .
+
+
+
+"Accept: */*\r\n".
+
+
+
+
+"Authorization:Bearer $token\r\n" .
+"Host: live.britishtv.org:8090\r\n"
+
+
+
+    ]
+
+];
+
+	$opts2= [
+
+
+
+    "http" => [
+
+
+
+
+
+"method" => "GET",
+
+
+
+
+
+"header" => "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
+
+
+
+"X-User-Agent: Model: MAG250; Link: WiFi\r\n".
+
+
+
+"Referer: http://live.britishtv.org:8090/stalker_portal/c/\r\n" .
+
+
+
+"Cookie: mac=00:1a:79:42:E1:95; stb_lang=en; timezone=GMT\r\n" .
+
+
+
+"Accept: */*\r\n".
+
+
+
+
+"Authorization:Bearer $token\r\n" .
+"Host: live.britishtv.org:8090\r\n"
+
+
+
+    ]
+
+];
+
 $context = stream_context_create($opts);
 //$urltk="http://live.britishtv.org:8090/stalker_portal/server/load.php?type=stb&action=handshake&token=&JsHttpRequest=1-xml";
 
@@ -23,26 +131,7 @@ $id='4548';
 //echo var_dump($json);
 $token=$json['js']['token'];
 //echo $token;
-$opts1 = [
-    "http" => [
-        "method" => "GET",
-        "header" => "Cookie: mac=00:1a:79:42:E1:95\r\n".
-"User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
-"X-User-Agent: Model: MAG250; Link: WiFi\r\n".
-"Authorization:Bearer $token\r\n" .
-"Host: live.britishtv.org:8090\r\n"
-    ]
-];
-$opts2 = [
-    "http" => [
-        "method" => "GET",
-        "header" => "Cookie: mac=00:1a:79:42:E1:95\r\n".
-"User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
-"X-User-Agent: Model: MAG250; Link: WiFi\r\n".
-"Authorization:Bearer $token\r\n" .
-"Host: live.britishtv.org:8090\r\n"
-    ]
-];
+
 
 $s="_";
 $t=time();

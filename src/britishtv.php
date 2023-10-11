@@ -8,7 +8,6 @@ $opts = [
        "header" => "Cookie: mac=00:1a:79:42:E1:95\r\n".
 "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
-"Authorization:Bearer $token\r\n" .
 "Host: live.britishtv.org:8090\r\n"
     ]
 ];

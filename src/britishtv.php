@@ -14,7 +14,7 @@ $opts = [
 "Referrer: http://live.britishtv.org:8090/stalker_portal/c/\r\n" .
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
 "Cache-Control: no-cache\r\n".
-"Host: live.britishtv.org:8090\r\n"
+"Host: live.britishtv.org:8090\r\n".
 "Cookie: mac=00:1a:79:42:E1:95; stb_lang=en; timezone=Europe%2FParis\r\n" 
 
 

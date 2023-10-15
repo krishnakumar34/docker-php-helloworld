@@ -60,7 +60,7 @@ $img= $data[$i]["screenshot_uri"];
 $cm=",";
 //$url="https://kriskk.herokuapp.com/sidermay23.php?c=$cid&ch=$i&p=$j";
 
-echo "#EXTINF:-1 tvg-logo='"$img$cm"'.$data[$i]["name"];
+echo "#EXTINF:-1 tvg-logo='"$img"',.$data[$i]["name"];
 
 
 

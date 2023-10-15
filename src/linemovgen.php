@@ -56,7 +56,7 @@ for($i=0; $i <count($keys); ++$i) {
 //$q=";
 //echo"keys". $json[$i]["link"] ;
 $cm=",";
-$img= "$data[$i]["screenshot_uri"]$cm";
+$img= "$data[$i]["screenshot_uri"]"$cm;
 //print($img);
 
 //$url="https://kriskk.herokuapp.com/sidermay23.php?c=$cid&ch=$i&p=$j";

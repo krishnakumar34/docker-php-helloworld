@@ -25,7 +25,7 @@ echo "#EXTM3U";
 
 
 $all="*";
-for($j=1;$j<=54;++$j){
+for($j=1;$j<=63;++$j){
 $urlmv="http://line.crystalott.net:80/server/load.php?type=vod&action=get_ordered_list&genre=415&get_category=$all&p=$j";
 $haystack = file_get_contents($urlmv,false,$context);
 //echo $haystack;

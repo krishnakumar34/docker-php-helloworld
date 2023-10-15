@@ -58,7 +58,7 @@ for($i=0; $i <count($keys); ++$i) {
 $cm=",";
 $img= $data[$i]["screenshot_uri"];
 //print($img);
-$imgnew=$img$cm
+//$imgnew=$img$cm
 //$url="https://kriskk.herokuapp.com/sidermay23.php?c=$cid&ch=$i&p=$j";
 
 echo "#EXTINF:-1 tvg-logo='$img'.$data[$i]["name"];

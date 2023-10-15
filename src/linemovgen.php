@@ -55,12 +55,13 @@ for($i=0; $i <count($keys); ++$i) {
 
 //$q=";
 //echo"keys". $json[$i]["link"] ;
-$img= $data[$i]["screenshot_uri"];
-//print($img);
 $cm=",";
+$img= $data[$i]["screenshot_uri"]$cm;
+//print($img);
+
 //$url="https://kriskk.herokuapp.com/sidermay23.php?c=$cid&ch=$i&p=$j";
 
-echo "#EXTINF:-1 tvg-logo='$img'$cm.$data[$i]["name"];
+echo "#EXTINF:-1 tvg-logo='$img'.$data[$i]["name"];
 
 
 

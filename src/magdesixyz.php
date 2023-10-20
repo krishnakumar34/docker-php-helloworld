@@ -8,7 +8,7 @@ $opts = [
         "header" => "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
 "Referer: http://mag.desi123.xyz/stalker_portal/c/\r\n" .
-"Cookie:mac=00:1A:79:F0:5D:E3; stb_lang=en; timezone=GMT\r\n" .
+"Cookie:mac=00:1A:79:b1:e8:c7; stb_lang=en; timezone=GMT\r\n" .
 "Accept: */*\r\n".
 "Host: mag.desi123.xyz\r\n"
     ]
@@ -29,7 +29,7 @@ $opts1 = [
         "header" => "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
 "Referer: http://mag.desi123.xyz/stalker_portal/c/\r\n" .
-"Cookie:mac=00:1A:79:F0:5D:E3; stb_lang=en; timezone=GMT\r\n" .
+"Cookie:mac=00:1A:79:b1:e8:c7; stb_lang=en; timezone=GMT\r\n" .
 "Accept: */*\r\n".
 "Authorization:Bearer $token\r\n".
 "Host: mag.desi123.xyz\r\n"
@@ -41,7 +41,7 @@ $opts2 = [
         "header" => "User-Agent: Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3\r\n" .
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
 "Referer: http://mag.desi123.xyz/stalker_portal/c/\r\n" .
-"Cookie: mac=00:1A:79:F0:5D:E3; stb_lang=en; timezone=GMT\r\n" .
+"Cookie: mac=00:1A:79:b1:e8:c7; stb_lang=en; timezone=GMT\r\n" .
 "Accept: */*\r\n".
 "Authorization:Bearer $token\r\n".
 "Host: mag.desi123.xyz\r\n"
@@ -49,8 +49,8 @@ $opts2 = [
 ];
 $s="_";
 $t=time();
-
-$urlpf="http://mag.desi123.xyz:80/stalker_portal/server/load.php?type=stb&action=get_profile&hd=1&ver=ImageDescription%3A%200.2.18-r14-pub-250%3B%20ImageDate%3A%20Fri%20Jan%2015%2015%3A20%3A44%20EET%202016%3B%20PORTAL%20version%3A%205.1.0%3B%20API%20Version%3A%20JS%20API%20version%3A%20328%3B%20STB%20API%20version%3A%20134%3B%20Player%20Engine%20version%3A%200x566&num_banks=2&sn=97731AD8B2257&stb_type=MAG250&image_version=218&video_out=hdmi&device_id=&device_id2=&signature=&auth_second_step=1&hw_version=1.7-BD-00&not_valid_token=0&client_type=STB&hw_version_2=97731ad8b225746d8614cda2e1542754&timestamp=$t&api_signature=263&metrics=%7B%22mac%22%3A%2200%3A1A%3A79%3AF0%3A5D%3AE3%22%2C%22sn%22%3A%2297731AD8B2257%22%2C%22model%22%3A%22MAG250%22%2C%22type%22%3A%22STB%22%2C%22uid%22%3A%22%22%2C%22random%22%3A%227745f36a1c3e78ac449c4d135716d0ea%22%7D&JsHttpRequest=1-xml";
+$urlpf="http://mag.desi123.xyz:80/stalker_portal/server/load.php?type=stb&action=get_profile&device_id=9E9DB08D931F70CB11F8E599BFFF263DFD867CEB4296B257F47A97FCDDAEDDE2&device_id2=9E9DB08D931F70CB11F8E599BFFF263DFD867CEB4296B257F47A97FCDDAEDDE2&auth_second_step=1&metrics=%7B%22mac%22%3A%2200%3A1A%3A79%3A7A%3A29%3A2B%22%7D&hw_version_2=d6b3eba9bdc7fb3858d07cdcaa7a27ed8b10ecc6";
+//$urlpf="http://mag.desi123.xyz:80/stalker_portal/server/load.php?type=stb&action=get_profile&hd=1&ver=ImageDescription%3A%200.2.18-r14-pub-250%3B%20ImageDate%3A%20Fri%20Jan%2015%2015%3A20%3A44%20EET%202016%3B%20PORTAL%20version%3A%205.1.0%3B%20API%20Version%3A%20JS%20API%20version%3A%20328%3B%20STB%20API%20version%3A%20134%3B%20Player%20Engine%20version%3A%200x566&num_banks=2&sn=97731AD8B2257&stb_type=MAG250&image_version=218&video_out=hdmi&device_id=9E9DB08D931F70CB11F8E599BFFF263DFD867CEB4296B257F47A97FCDDAEDDE2&device_id2=9E9DB08D931F70CB11F8E599BFFF263DFD867CEB4296B257F47A97FCDDAEDDE2&signature=&auth_second_step=1&hw_version=1.7-BD-00&not_valid_token=0&client_type=STB&hw_version_2=97731ad8b225746d8614cda2e1542754&timestamp=$t&api_signature=263&metrics=%7B%22mac%22%3A%2200%3A1A%3A79%3AF0%3A5D%3AE3%22%2C%22sn%22%3A%2297731AD8B2257%22%2C%22model%22%3A%22MAG250%22%2C%22type%22%3A%22STB%22%2C%22uid%22%3A%22%22%2C%22random%22%3A%227745f36a1c3e78ac449c4d135716d0ea%22%7D&JsHttpRequest=1-xml";
 //echo $urlch;
 
 //if(!file_exists($cache)){

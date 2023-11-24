@@ -81,7 +81,7 @@ $haystack2=file_get_contents($urlch,false,$context1);
 $json2 = json_decode($haystack2, true);
 $id='4548';
 $data=$json2['js']['cmd'];
-$m3url="http://corskk.onrender.com/$data";
+$m3url="http://cors-now.adaptable.app/$data";
 //echo var_dump($data);
 //$m3u=$json2['js']['data'][$ch]['cmd'];
 //echo "values".var_dump($m3u);

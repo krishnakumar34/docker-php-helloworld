@@ -155,7 +155,7 @@ $json2 = json_decode($haystack2, true);
 $id='4548';
 
 $data=$json2['js']['cmd'];
-$data="http://corskk.onrender.com/$data";
+$data="http://cors-now.adaptable.app/$data";
 //echo $data;
 
 #$data=$data | "User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3";

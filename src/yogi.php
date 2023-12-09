@@ -17,6 +17,10 @@ $url1="https://vembx.one/$cid.html";
 //echo "objecttype".gettype($jsonvalues);
 
 $ch = curl_init();
+$config['useragent'] = 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0';
+
+curl_setopt($ch, CURLOPT_USERAGENT, $config['useragent']);
+
 
 curl_setopt($ch, CURLOPT_URL, $url1);
 

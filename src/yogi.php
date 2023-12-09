@@ -55,7 +55,8 @@ $ip = gethostbyname($hostkk);
 //echo $ip
 $m3une=str_replace($hostkk,$ip,$m3u);
 //echo $m3unew;
-header("Location: $m3une");
+echo file_get_contents($m3une);
+//header("Location: $m3une");
 
 //die();
 

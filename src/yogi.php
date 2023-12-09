@@ -42,7 +42,7 @@ $json = json_encode($response, true);
 
 //echo "result3".var_dump($json);
 
-preg_match("/file:(.*)\m3u8/", $json,$results) ;
+preg_match("/file:(.*)m3u8/", $json,$results) ;
 
 //echo "result4".var_dump($results[0]);
 
@@ -58,6 +58,7 @@ $hostkk=explode('/',$m3u)[2];
 $ip = gethostbyname($hostkk);
 //echo $ip
 $m3une=str_replace($hostkk,$ip,$m3u);
+$m3une=str_replace("https","http",$m3une);
 //echo $m3unew;
 //echo file_get_contents($m3une);
 header("Location: $m3une");

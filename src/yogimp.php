@@ -1,7 +1,7 @@
 <?php
 $cid=$_GET['c']; 
 //$p = $_GET['p']; 
-$url1="https://embed.icu/$cid.html";
+$url1="https://vembx.one/$cid.html";
 //echo $url1;
 $ch = curl_init();
 $config['useragent'] = 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:17.0) Gecko/20100101 Firefox/17.0';

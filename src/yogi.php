@@ -4,7 +4,7 @@ $cid=$_GET['c'];
 
 //$p = $_GET['p']; 
 
-$url1="https://vembx.one/$cid.html";
+$url1="https://vidplay.one/$cid.html";
 
 //echo $url1;
 

@@ -36,7 +36,7 @@ $data=explode(",",$data);
 $m3unew=str_replace('\\' , '',$data[0]);
 //echo $m3unew;
 //$m3u=str_replace('file:' , '',$m3unew);
-m3u= trim($m3unew, '"');
+$m3u= trim($m3unew, '"');
 //echo $m3u;
 $hostkk=explode('/',$m3u)[2];
 $ip = gethostbyname($hostkk);

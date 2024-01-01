@@ -84,7 +84,7 @@ $data=$json2['js']['cmd'];
 //$m3u=$data[0];
 //echo "m3ulink".var_dump($m3u)
 //$data=str_replace('ffmpeg', '',$data);
-//$m3url="http://corskk.onrender.com/$data";
+$m3url="https://corsus.onrender.com/$data";
 //echo "value".$data;
-header("Location:$data");
+header("Location:$m3url");
 ?>;

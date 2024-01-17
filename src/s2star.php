@@ -19,7 +19,8 @@ $opts = [
 "X-User-Agent: Model: MAG250; Link: WiFi\r\n".
 
 
-"Host: s2.startv.biz\r\n"
+"Host: s2.startv.biz\r\n".
+"Connection: Keep-Alive\r\n"
 
     ]
 
@@ -63,7 +64,8 @@ $opts1 = [
 
 "Authorization:Bearer $token\r\n" .
 
-"Host: s2.startv.biz\r\n"
+"Host: s2.startv.biz\r\n".
+"Connection: Keep-Alive\r\n"
 
     ]
 
@@ -83,7 +85,8 @@ $opts2 = [
 
 "Authorization:Bearer $token\r\n" .
 
-"Host: s2.startv.biz\r\n"
+"Host: s2.startv.biz\r\n".
+"Connection: Keep-Alive\r\n"
 
     ]
 

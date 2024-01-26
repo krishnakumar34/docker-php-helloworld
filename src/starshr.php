@@ -133,7 +133,7 @@ $data1=preg_replace( '/\s+/', '', $data );
 //echo $data1;
 
 $m3unew=str_replace('ffmpeg', '',$data1);
-$m3url="http://crimson-ruddy-minotaurasaurus.glitch.me/$m3unew";
+$m3url="http://corsus.onrender.com/$m3unew";
 //echo "value
 //echo "value1" .$m3unew;
 

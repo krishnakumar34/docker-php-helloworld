@@ -36,8 +36,8 @@ $opts1 = [
 "X-User-Agent: Model: MAG254; Link: WiFi\r\n".
 "Authorization: Bearer $token\r\n".
 "Host: eljawda.net:-1\r\n".
-"Cookie: mac=00:1A:79:A2:73:84;stb_lang=en;timezone=Europe%2FParis \r\n"
-//"Connection:Keep-Alive\r\n"
+"Cookie: mac=00:1A:79:A2:73:84;stb_lang=en;timezone=Europe%2FParis \r\n".
+"Connection:Keep-Alive\r\n"
     ]
 ];
 
@@ -52,8 +52,8 @@ $opts2 = [
 "X-User-Agent: Model: MAG254; Link: WiFi\r\n".
 "Authorization: Bearer $token\r\n".
 "Host: eljawda.net:-1\r\n".
-"Cookie: mac=00:1A:79:A2:73:84;stb_lang=en;timezone=Europe%2FParis \r\n"
-//"Connection:Keep-Alive\r\n"
+"Cookie: mac=00:1A:79:A2:73:84;stb_lang=en;timezone=Europe%2FParis \r\n".
+"Connection:Keep-Alive\r\n"
     ]
 ];
 $t=time();
@@ -69,10 +69,10 @@ $json1 = json_decode($haystack1, true);
 $pf2="http://eljawda.net:88/portal.php?type=stb&action=get_profile&JsHttpRequest=1-xml&hd=1&num_banks=2&not_valid_token=0&auth_second_step=0&timestamp=$t&video_out=hdmi&client_type=STB&metrics=%7B%22mac%22%3A%2200%3A1a%3A79%3AA2%3A73%3A84%22%2C%22sn%22%3A%22%22%2C%22model%22%3A%22MAG254%22%2C%22type%22%3A%22stb%22%2C%22uid%22%3A%22%22%7D";
 //$pf2="http://eljawda.net:88/portal.php?type=stb&action=get_profile&JsHttpRequest=1-xml&hd=1&num_banks=2&not_valid_token=0&auth_second_step=0&timestamp=$t&video_out=hdmi&client_type=STB&metrics=%7B%22mac%22%3A%2200%3A1a%3A79%3Aa8%3Afa%3A57%22%2C%22sn%22%3A%22%22%2C%22model%22%3A%22MAG254%22%2C%22type%22%3A%22stb%22%2C%22uid%22%3A%22%22%7D";
 
-/*$context3 = stream_context_create($opts1);
+$context3 = stream_context_create($opts1);
 $haystack3=file_get_contents($pf2,false,$context1);
 //echo var_dump($haystack3);
-$json3= json_decode($haystack3, true);*/
+$json3= json_decode($haystack3, true);
 
 
 //$cache=str_replace("/","_",$_REQUEST["key"]);

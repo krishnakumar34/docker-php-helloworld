@@ -247,6 +247,8 @@ $id='4548';
 //$data=$data | "User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3";
 
 $m3u=$json2['js']['cmd'];
+$data="https://corskk.onrender.com/$m3u";
+
 
 //echo $m3u;
 
@@ -264,6 +266,6 @@ $m3u=$json2['js']['cmd'];
 
 //echo "value1" .$m3unew;
 
-header("Location:$m3u");
+header("Location:$data");
 
 ?>;

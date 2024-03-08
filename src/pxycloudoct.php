@@ -102,7 +102,7 @@ $haystack1 = file_get_contents($chl,false,$context1);
 
 $json1 = json_decode($haystack1, true);
 
-echo var_dump($json1);
+//echo var_dump($json1);
 
 $id='4548';
 

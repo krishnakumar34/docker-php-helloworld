@@ -81,7 +81,7 @@ $context4= stream_context_create($opts1);
 
 $haystack4=file_get_contents($pf,false,$context4);
 
-echo var_dump($haystack1);
+//echo var_dump($haystack1);
 
 //$s="_";
 
@@ -110,7 +110,7 @@ $data=$json1['js']['cmd'];
 
 //$m3u=$json1['js']['data'][$ch]['cmd'];
 
-//echo "values".var_dump($m3u);
+//echo "values".var_dump($data);
 
 //$m3u=$data[0];
 

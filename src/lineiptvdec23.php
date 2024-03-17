@@ -154,6 +154,5 @@ $m3u=$json['js']['data'][$ch]['cmd'];
 //$m3u=$data[0];
 //echo "m3ulink".var_dump($m3u);
 $m3unew=str_replace('ffmpeg', '',$m3u);
-//echo "value".$m3unew;
 header("Location:$m3unew");
 ?>

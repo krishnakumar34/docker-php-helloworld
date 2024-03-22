@@ -154,5 +154,7 @@ $m3u=$json['js']['data'][$ch]['cmd'];
 //$m3u=$data[0];
 //echo "m3ulink".var_dump($m3u);
 $m3unew=str_replace('ffmpeg', '',$m3u);
+//echo "value".$m3unew;
+$m3unew="http://corsus.onrender.com/$m3new";
 header("Location:$m3unew");
 ?>

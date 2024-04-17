@@ -10,7 +10,7 @@ $opts = [
 "Referrer: http://sansatplus.net:25461/c/\r\n".
 "X-User-Agent: Model: MAG254; Link: WiFi\r\n".
 "Cache-Control: no-cache\r\n".
-"Host: eljawda.net:-1\r\n".
+"Host: sansatplus.net:-1\r\n".
 "Cookie: mac=00:1A:79:4A:F0:24;stb_lang=en; timezone=Europe%2FParis \r\n" .
 "Connection: Keep-Alive/\r\n"
     ]
@@ -35,7 +35,7 @@ $opts1 = [
 "Accept-Charset: UTF-8,*;q=0.8\r\n".
 "X-User-Agent: Model: MAG254; Link: WiFi\r\n".
 "Authorization: Bearer $token\r\n".
-"Host: eljawda.net:-1\r\n".
+"Host: sansatplus.net:-1\r\n".
 "Cookie: mac=00:1A:79:4A:F0:24;stb_lang=en;timezone=Europe%2FParis \r\n".
 "Connection:Keep-Alive\r\n"
     ]
@@ -51,7 +51,7 @@ $opts2 = [
 "Accept-Charset: UTF-8,*;q=0.8\r\n".
 "X-User-Agent: Model: MAG254; Link: WiFi\r\n".
 "Authorization: Bearer $token\r\n".
-"Host: eljawda.net:-1\r\n".
+"Host: sansatplus.net:-1\r\n".
 "Cookie: mac=00:1A:79:4A:F0:24;stb_lang=en;timezone=Europe%2FParis \r\n".
 "Connection:Keep-Alive\r\n"
     ]

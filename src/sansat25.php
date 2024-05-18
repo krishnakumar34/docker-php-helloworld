@@ -108,4 +108,4 @@ $m3unew=str_replace('ffmpeg', '',$m3u);
 //echo "value".$m3unew;
 
 header("Location:$m3unew");
-?
+?>

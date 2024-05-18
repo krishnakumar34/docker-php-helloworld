@@ -75,6 +75,7 @@ $haystack3=file_get_contents($pf2,false,$context1);
 $json3= json_decode($haystack3, true);
 
 
+
 //$cache=str_replace("/","_",$_REQUEST["key"]);
 
 //if(!file_exists($cache)){
@@ -100,6 +101,7 @@ $m3u=$json2['js']['data'][$ch]['cmd'];
 //echo "values".var_dump($m3u);
 
 //$m3u=$data[0];
+
 
 //echo "m3ulink".var_dump($m3u);
 

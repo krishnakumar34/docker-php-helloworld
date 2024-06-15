@@ -20,14 +20,16 @@ curl_setopt($ch1, CURLOPT_RETURNTRANSFER, TRUE);
 curl_setopt($ch1, CURLOPT_HEADER, FALSE);
 curl_setopt($ch1, CURLOPT_HTTPHEADER, array("Content-Type: application/json" ));
 $response = curl_exec($ch1);
-//echo $response;
-$rs2="";
-if(preg_match("/streamUrl(.*)}/", $response,$result2)){
+$dt= json_decode($response,true);
+//echo var_dump($dt);
+$m3u=$dt['sources'][0]['data']['stream'];
+//$rs2="";
+/*if(preg_match("/stream(.*)}/", $dt,$result2)){
 //echo "videoid".$result2[1];
 $m3k=$result2[1];
 //$rs2=preg_replace('/:/', ' ', $result2[1], 1);
 $rs2=str_replace_first(":" , ' ' ,$m3k);
-$rs2=str_replace("streamUrl" , ' ' ,$rs2);
+$rs2=str_replace("stream" , ' ' ,$rs2);
 $rs2=str_replace("}" , ' ' ,$rs2);
 $rs2=str_replace("\"","",$rs2);
 //$rs2=str_replace(' ',':',$rs2);
@@ -35,7 +37,7 @@ $rs2=str_replace("\"","",$rs2);
 //$vid2=explode(":",rs2);
 //echo "karen2". $rs2;
 //header("Location:$rs2");
-}
-header("Location:$rs2");
+}*/
+header("Location:$m3u");
 die();
 ?>

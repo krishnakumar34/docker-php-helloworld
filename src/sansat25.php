@@ -111,5 +111,5 @@ echo $m3u;
 $m3u="http://crimson-ruddy-minotaurasaurus.glitch.me/$m3u";
 //echo "value".$m3unew;
 
-header("Location:$m3u");
+//header("Location:$m3u");
 ?>

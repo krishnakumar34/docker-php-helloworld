@@ -111,5 +111,5 @@ $m3u=ltrim($m3unew);
 $m3ukk="http://crimson-ruddy-minotaurasaurus.glitch.me/$m3u";
 //echo "value".$m3ukk;
 
-//header("Location:$m3ukk");
+header("Location:$m3ukk");
 ?>

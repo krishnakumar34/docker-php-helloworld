@@ -109,7 +109,7 @@ $m3unew=str_replace('ffmpeg', '',$m3u);
 $m3u=ltrim($m3unew);
 //echo $m3u;
 $m3ukk="http://crimson-ruddy-minotaurasaurus.glitch.me/$m3u";
-echo "value".$m3ukk;
+//echo "value".$m3ukk;
 
-//header("Location:$m3u");
+//header("Location:$m3ukk");
 ?>

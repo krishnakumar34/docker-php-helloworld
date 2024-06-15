@@ -38,4 +38,4 @@ $rs2=str_replace("\"","",$rs2);
 }
 header("Location:$rs2");
 die();
-?
+?>

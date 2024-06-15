@@ -107,9 +107,9 @@ $m3u=$json2['js']['data'][$ch]['cmd'];
 
 $m3unew=str_replace('ffmpeg', '',$m3u);
 $m3u=rtrim($m3unew);
-echo $m3u;
+//echo $m3u;
 $m3u="http://crimson-ruddy-minotaurasaurus.glitch.me/$m3u";
-//echo "value".$m3unew;
+echo "value".$m3u;
 
 //header("Location:$m3u");
 ?>

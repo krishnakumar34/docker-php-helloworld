@@ -108,7 +108,7 @@ $m3u=$json2['js']['data'][$ch]['cmd'];
 $m3unew=str_replace('ffmpeg', '',$m3u);
 $m3u=ltrim($m3unew);
 //echo $m3u;
-$m3ukk="https://corsmj-now.onrender.com/$m3u";
+$m3ukk="https://corsjj-now.onrender.com/$m3u";
 //echo "value".$m3ukk;
 
 header("Location:$m3ukk");

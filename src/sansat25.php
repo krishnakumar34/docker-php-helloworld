@@ -108,7 +108,7 @@ $m3u=$json2['js']['data'][$ch]['cmd'];
 $m3unew=str_replace('ffmpeg', '',$m3u);
 $m3u=ltrim($m3unew);
 //echo $m3u;
-$m3ukk="https://corsnow3-pg5c2fch.b4a.run/$m3u";
+$m3ukk="http://sympathetic-rianon-personalkk-b701f149.koyeb.app/$m3u";
 //echo "value".$m3ukk;
 header("Location:$m3ukk");
 ?>

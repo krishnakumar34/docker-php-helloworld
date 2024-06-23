@@ -5,7 +5,7 @@ $cid=$_GET['c'];
 //$ch=$_GET['ch']; 
 
 //$p = $_GET['p']; 
-$url="https://lime-fantastic-camel.cyclic.app/hello/$cid";
+$url="https://einthupy.vercel.app/hello/$cid";
 //$url="https://ytvv.onrender.com/hello/$cid";
 $m3u=file_get_contents($url);
 

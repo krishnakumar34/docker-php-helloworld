@@ -104,8 +104,8 @@ $s="_";
 $json1 = json_decode($haystack1, true);
 #$urlch="https://tv.krystal4k.cc:443/stalker_portal/server/load.php?type=itv&action=create_link&cmd=ffrt%20http%3A%2F%2F%2Fch%2F$cid";
 
-//$urlch="https://tv.krystal4k.cc:443/stalker_portal/server/load.php?type=itv&action=create_link&cmd=ffrt%20http%3A%2F%2Flocalhost%2Fch%2F$cid";
-$urlch="https://tv.krystal4k.cc:443/stalker_portal/server/load.php?type=itv&action=get_genres";
+$urlch="https://tv.krystal4k.cc:443/stalker_portal/server/load.php?type=itv&action=create_link&cmd=ffrt%20http%3A%2F%2Flocalhost%2Fch%2F$cid";
+//$urlch="https://tv.krystal4k.cc:443/stalker_portal/server/load.php?type=itv&action=get_genres";
 //$urlch="https://tv.krystal4k.cc:443/portal.php?type=itv&action=get_ordered_list&genre=$cid&sortby=&p=$p";
 //$urlch="https://tv.krystal4k.cc:443/portal.php?type=itv&action=get_all_channels";
 //$urlch="http://anonymoustv.club:80/server/load.php?type=itv&action=create_link&forced_storage=undefined&download=0&cmd=ffmpeg%20http%3A%2F%2Flocalhost%2Fch%2F$cid$s";
@@ -118,7 +118,7 @@ $urlch="https://tv.krystal4k.cc:443/stalker_portal/server/load.php?type=itv&acti
 //if(!file_exists($cache)){
 ////
 $context2 = stream_context_create($opts2);
-$haystack2=file_get_contents($urlch,false,$context1);
+$haystack2=file_get_contents($urlch,false,$context2);
 echo var_dump($haystack2);
 $json2 = json_decode($haystack2, true);
 $id='4548';
@@ -127,7 +127,7 @@ $id='4548';
 
 //$data=$data | "User-Agent=Mozilla/5.0 (QtEmbedded; U; Linux; C) AppleWebKit/533.3 (KHTML, like Gecko) MAG200 stbapp ver: 2 rev: 250 Safari/533.3";
 $m3u=$json2['js']['cmd'];
-//echo $m3u;
+echo $m3u;
 //echo "values".var_dump($m3u);
 //$m3u=$data[0];
 //echo "m3ulink".var_dump($m3u);
@@ -135,5 +135,5 @@ $m3u=$json2['js']['cmd'];
 //echo $data1;
 //$m3unew=str_replace('ffmpeg', '',$data1);
 //echo "value1" .$m3unew;
-header("Location:$m3u");
+#header("Location:$m3u");
 ?>;

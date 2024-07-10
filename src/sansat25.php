@@ -112,5 +112,5 @@ $m3ukk="https://cors-now-production.up.railway.app/$m3u";
 //$m3ukk="http://sympathetic-rianon-personalkk-b701f149.koyeb.app/$m3u";
 //$m3ukk="http://docker-php-helloworld-x8by.onrender.com/hls_proxy.php?url=$m3u";
 //echo "value".$m3ukk;
-header("Location:$m3ukk");
+header("Location:$m3u");
 ?>

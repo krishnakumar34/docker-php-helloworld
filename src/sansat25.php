@@ -109,8 +109,8 @@ $m3unew=str_replace('ffmpeg', '',$m3u);
 $m3u=ltrim($m3unew);
 //echo $m3u;
 
-$m3ukk="http://sympathetic-rianon-personalkk-b701f149.koyeb.app/$m3u";
-//$m3ukk="https://testrjk-xjjjkogr.b4a.run/hls_proxy.php?url=$m3u";
+//$m3ukk="http://sympathetic-rianon-personalkk-b701f149.koyeb.app/$m3u";
+$m3ukk="http://jjkk-o6xz.onrender.com/hls_proxy.php?url=$m3u";
 //echo "value".$m3ukk;
 header("Location:$m3ukk");
 ?>

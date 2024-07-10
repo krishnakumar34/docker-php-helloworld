@@ -108,9 +108,9 @@ $m3u=$json2['js']['data'][$ch]['cmd'];
 $m3unew=str_replace('ffmpeg', '',$m3u);
 $m3u=ltrim($m3unew);
 //echo $m3u;
-
+$m3ukk="https://cors-now-production.up.railway.app/$m3u";
 //$m3ukk="http://sympathetic-rianon-personalkk-b701f149.koyeb.app/$m3u";
-$m3ukk="http://docker-php-helloworld-x8by.onrender.com/hls_proxy.php?url=$m3u";
+//$m3ukk="http://docker-php-helloworld-x8by.onrender.com/hls_proxy.php?url=$m3u";
 //echo "value".$m3ukk;
 header("Location:$m3ukk");
 ?>

@@ -6,7 +6,8 @@ function str_replace_first($sh,$that,$s)
          return substr($s,0,$w).$that.substr($s,$w+strlen($sh));
          }
 $channelid=$_GET['c'];
-$url2="https://vidkk.vercel.app/vidsrc/$channelid";
+$url2="https://vidsrc2-alpha.vercel.app/vidsrc/$channelid";
+//$url2="https://vidkk.vercel.app/vidsrc/$channelid";
 //$resp = file_get_contents($urlVideoDetails);  
 //echo json_decode($resp);     
 

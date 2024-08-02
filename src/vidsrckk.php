@@ -23,7 +23,7 @@ curl_setopt($ch1, CURLOPT_HTTPHEADER, array("Content-Type: application/json" ));
 $response = curl_exec($ch1);
 $dt= json_decode($response,true);
 //echo var_dump($dt);
-$m3u=$dt['sources'][0]['data']['stream'];
+$m3u=$dt['sources'][0]['data']['source'];
 //$rs2="";
 /*if(preg_match("/stream(.*)}/", $dt,$result2)){
 //echo "videoid".$result2[1];

@@ -133,8 +133,8 @@ $data1=preg_replace( '/\s+/', '', $data );
 //echo $data1;
 
 $m3unew=str_replace('ffmpeg', '',$data1);
-
+$m3unew1="https://grey-superb-nose.glitch.me/$m3unew";
 //echo "value1" .$m3unew;
 
-header("Location:$m3unew");
+header("Location:$m3unew1");
 ?>;

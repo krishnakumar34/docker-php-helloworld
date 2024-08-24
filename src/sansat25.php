@@ -13,8 +13,7 @@ $opts = [
 "X-User-Agent: Model: MAG254; Link: WiFi\r\n".
 "Cache-Control: no-cache\r\n".
 "Host: sansatplus.net:-1\r\n".
-"Cookie: mac=00:1A:79:4A:F0:24;stb_lang=en; timezone=Europe%2FParis \r\n" .
-"Connection: Keep-Alive/\r\n"
+"Cookie: mac=00:1A:79:4A:F0:24;stb_lang=en; timezone=Europe%2FParis \r\n"
     ]
 ];
 	//echo "test";
@@ -38,8 +37,7 @@ $opts1 = [
 "X-User-Agent: Model: MAG254; Link: WiFi\r\n".
 "Authorization: Bearer $token\r\n".
 "Host: sansatplus.net:-1\r\n".
-"Cookie: mac=00:1A:79:4A:F0:24;stb_lang=en;timezone=Europe%2FParis \r\n".
-"Connection:Keep-Alive\r\n"
+"Cookie: mac=00:1A:79:4A:F0:24;stb_lang=en;timezone=Europe%2FParis \r\n"
     ]
 ];
 
@@ -54,8 +52,7 @@ $opts2 = [
 "X-User-Agent: Model: MAG254; Link: WiFi\r\n".
 "Authorization: Bearer $token\r\n".
 "Host:sansatplus.net:-1\r\n".
-"Cookie: mac=00:1A:79:4A:F0:24;stb_lang=en;timezone=Europe%2FParis \r\n".
-"Connection:Keep-Alive\r\n"
+"Cookie: mac=00:1A:79:4A:F0:24;stb_lang=en;timezone=Europe%2FParis \r\n"
     ]
 ];
 $t=time();

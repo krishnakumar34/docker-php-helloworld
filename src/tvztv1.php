@@ -81,6 +81,6 @@ $data=$json2['js']['cmd'];
 //echo "m3ulink".var_dump($m3u);
 //$m3unew=str_replace('ffmpeg', '',$data);
 //echo "value".$data;
-$data="http://zealous-tangy-caption.glitch.me/$data";
+$data="http://cors-nowus.onrender.com/$data";
 header("Location:$data");
 ?>;

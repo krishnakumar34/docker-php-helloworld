@@ -171,7 +171,7 @@ $opts2 = [
 $s="_";
 
 $t=time();
-$urlpf="http://jiotv.de:80/stalker_portal/server/load.php?type=stb&action=get_profile&hd=1&ver=ImageDescription%3A%200.2.18-r14-pub-250%3B%20ImageDate%3A%20Fri%20Jan%2015%2015%3A20%3A44%20EET%202016%3B%20PORTAL%20version%3A%205.1.0%3B%20API%20Version%3A%20JS%20API%20version%3A%20328%3B%20STB%20API%20version%3A%20134%3B%20Player%20Engine%20version%3A%200x566&num_banks=2&sn=14BBC65056958&stb_type=MAG250&image_version=218&video_out=hdmi&device_id=8492D39A8FEC3494A1751FA88F377ABBC3D75E769925CFE37B574C79D7DE6F52%20&device_id2=A950C1409B12AEE7B8732D10B9EBA7EACC0CC3180D428E008F3C57EF1C3069A0&signature=&auth_second_step=1&hw_version=1.7-BD-00&not_valid_token=0&client_type=STB&hw_version_2=14bbc650569584abdf8539cba6102932&timestamp=1726388734&api_signature=263&metrics=%7B%22mac%22%3A%2200%3A1A%3A79%3A3F%3A14%3A90%22%2C%22sn%22%3A%2214BBC65056958%22%2C%22model%22%3A%22MAG250%22%2C%22type%22%3A%22STB%22%2C%22uid%22%3A%22%22%2C%22random%22%3A%22c894b5903edbf17cf65c0866354b6e97%22%7D&JsHttpRequest=1-xml";
+$urlpf="http://jiotv.de:80/stalker_portal/server/load.php?type=stb&action=get_profile&hd=1&ver=ImageDescription%3A%200.2.18-r14-pub-250%3B%20ImageDate%3A%20Fri%20Jan%2015%2015%3A20%3A44%20EET%202016%3B%20PORTAL%20version%3A%205.1.0%3B%20API%20Version%3A%20JS%20API%20version%3A%20328%3B%20STB%20API%20version%3A%20134%3B%20Player%20Engine%20version%3A%200x566&num_banks=2&sn=14BBC65056958&stb_type=MAG250&image_version=218&video_out=hdmi&device_id=8492D39A8FEC3494A1751FA88F377ABBC3D75E769925CFE37B574C79D7DE6F52A950C1409B12AEE7B8732D10B9EBA7EACC0CC3180D428E008F3C57EF1C3069A0&device_id2=8492D39A8FEC3494A1751FA88F377ABBC3D75E769925CFE37B574C79D7DE6F52A950C1409B12AEE7B8732D10B9EBA7EACC0CC3180D428E008F3C57EF1C3069A0&signature=&auth_second_step=1&hw_version=1.7-BD-00&not_valid_token=0&client_type=STB&hw_version_2=14bbc650569584abdf8539cba6102932&timestamp=$t&api_signature=263&metrics=%7B%22mac%22%3A%2200%3A1A%3A79%3A3F%3A14%3A90%22%2C%22sn%22%3A%2214BBC65056958%22%2C%22model%22%3A%22MAG250%22%2C%22type%22%3A%22STB%22%2C%22uid%22%3A%22%22%2C%22random%22%3A%22c894b5903edbf17cf65c0866354b6e97%22%7D&JsHttpRequest=1-xml";
 //$urlpf="http://jiotv.de:80/stalker_portal/server/load.php?type=stb&action=get_profile&device_id=3EFD5BD2DE44B6BBA05756C15949BBD66879B608418DDBA8C194FE6589F998EA&device_id2=3EFD5BD2DE44B6BBA05756C15949BBD66879B608418DDBA8C194FE6589F998EA&auth_second_step=1&metrics=%7B%22mac%22%3A%2200%3A1A%3A79%3A50%3A12%3AD4%22%7D&hw_version_2=d6b3eba9bdc7fb3858d07cdcaa7a27ed8b10ecc6";
 
 //$urlpf="http://jiotv.de:80/stalker_portal/server/load.php?type=stb&action=get_profile&device_id=645AF089974C353D417F2A8B9939CF5D96E145EEBE5B40BCA4E1EE740AD6BDD6&device_id2=&auth_second_step=1&metrics=%7B%22mac%22%3A%2200%3A1A%3A79%3A56%3AF9%3A3C%22%7D&hw_version_2=d6b3eba9bdc7fb3858d07cdcaa7a27ed8b10ecc6&timestamp=$t";
@@ -249,7 +249,8 @@ $id='4548';
 
 $m3u=$json2['js']['cmd'];
 
-//echo $m3u;
+#print $m3u;
+
 
 //echo "values".var_dump($m3u);
 

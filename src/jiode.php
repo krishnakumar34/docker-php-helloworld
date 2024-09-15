@@ -43,9 +43,7 @@ $opts = [
 
 
 
-"Host: jiotv.de\r\n".
-
-"Connection: Keep-Alive\r\n"
+"Host: jiotv.de\r\n"
 
     ]
 
@@ -95,9 +93,7 @@ $opts1 = [
 
 "Authorization:Bearer $token\r\n".
 
-"Host: jiotv.de\r\n".
-
-"Connection: Keep-Alive\r\n"
+"Host: jiotv.de\r\n"
 
     ]
 
@@ -121,9 +117,7 @@ $opts2 = [
 
 "Authorization:Bearer $token\r\n".
 
-"Host: jiotv.de\r\n".
-
-"Connection: Keep-Alive\r\n"
+"Host: jiotv.de\r\n"
 
     ]
 
@@ -143,9 +137,7 @@ $opts2 = [
 
 "Authorization: Bearer $token\r\n".
 
-"Host: jiotv.de\r\n".
-
-"Connection:Keep-Alive\r\n"
+"Host: jiotv.de\r\n"
 
     ]
 
@@ -165,9 +157,7 @@ $opts2 = [
 
 "Authorization: Bearer $token\r\n".
 
-"Host: jiotv.de\r\n".
-
-"Connection:Keep-Alive\r\n"
+"Host: jiotv.de\r\n"
 
     ]
 

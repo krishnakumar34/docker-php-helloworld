@@ -19,7 +19,7 @@ $opts = [
 ];
 	//echo "test";
 $context = stream_context_create($opts);
-$haystack = file_get_contents("http://eljawda.net:88/portal.php?type=stb&action=handshake&token=&JsHttpRequest=1-xml",false,$context);
+$haystack = file_get_contents("http://sansatplus.net:25461/portal.php?type=stb&action=handshake&token=&JsHttpRequest=1-xml",false,$context);
 //echo $haystack;
 $json = json_decode($haystack, true);
 $id='4548';

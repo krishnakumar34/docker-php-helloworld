@@ -85,6 +85,7 @@ $data=$json2['js']['cmd'];
 //$m3u=$data[0];
 //echo "m3ulink".var_dump($m3u)
 $data=str_replace('ffmpeg', '',$data);
+$data=str_replace('ts', 'm3u8',$data);
 //$m3url="http://fine-deluxe-physician.glitch.me/$data";
 //echo "value".$data;
 header("Location:$data");

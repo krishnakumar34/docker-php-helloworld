@@ -86,5 +86,6 @@ $data=$json2['js']['cmd'];
 //echo "m3ulink".var_dump($m3u)
 //$data=str_replace('ffmpeg', '',$data);
 //echo "value".$data;
+$data= explode("?",$data)[0];
 header("Location:$data");
 ?>;
